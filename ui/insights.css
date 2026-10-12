@@ -1,0 +1,12 @@
+.metric-grid .metric-card{border:1px solid #dae3e5;border-left:5px solid #92a3aa}
+.metric-grid .good{background:#e7f8ed;border-left-color:#168344}
+.metric-grid .moderate{background:#fff3dd;border-left-color:#bd7800}
+.metric-grid .poor{background:#ffe9e9;border-left-color:#c52f39}
+.metric-grid .severity{font-size:11px;font-weight:700;margin-top:10px}
+.good .severity{color:#116632}.moderate .severity{color:#915b00}.poor .severity{color:#a21f2c}
+.issue{padding:16px;margin:12px 0;border:1px solid #e0e7e8;border-left:5px solid;border-radius:8px}
+.issue.poor{border-left-color:#c52f39;background:#fff7f7}.issue.moderate{border-left-color:#bd7800;background:#fffaf1}
+.issue-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.issue-heading .severity{font-size:11px;font-weight:700;white-space:nowrap;border-radius:20px;padding:5px 8px;background:white}
+.insight-legend{font-size:12px}
+@media(max-width:600px){.issue-heading{flex-direction:column;gap:8px}}
